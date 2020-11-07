@@ -21,7 +21,7 @@ namespace ClientProxy_P4_085
                 Console.WriteLine("3 - 2 = " + hasilKurang);
                 double hasilKali = obj.Kali(2, 2);
                 Console.WriteLine("2 x 2 = " + hasilKali);
-                double hasilBagi = obj.Bagi(2, 2);
+                double hasilBagi = obj.Bagi(2, 0);
                 Console.WriteLine("2 / 2 = " + hasilBagi);
 
                 ServiceReference1.Koordinat a = new
